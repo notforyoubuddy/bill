@@ -1,0 +1,61 @@
+body {
+    background-color: aliceblue;
+    background-image: url(../images/loopy-pororo-the-little-penguin.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vwh;
+    height: 100vh;
+    }
+
+.card {
+    width: 450px;
+    height: 120px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 8px 25px
+    rgba(0, 0, 0, 0.15);
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    overflow: hidden;
+    top: 50%;
+    margin-top: -50px;
+    left: 50%;
+    margin-left: -35px;
+    transform: translate(-50%, -50%);
+
+}
+
+.card h2 {
+  color: #ff6fae;
+  margin: 10px 0;
+  font-size: 26px;
+}
+
+.card p {
+  color: #444;
+  font-size: 15px;
+  margin: 5px 0 15px;
+}
+
+  .box-container {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            width: 450px;
+            max-width: 90%;
+            text-align: match-parent;
+            position: fixed;
+            left: 50%;
+            margin-left: -281px;
+            top: 50%;
+            margin-top: -50px;
+            height: 160px;
+  }
+
+  .box-container {
+  transform: translateY(-180px);
+  margin-top: 50px;
+}
+
